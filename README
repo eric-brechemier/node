@@ -5,9 +5,13 @@ Prerequisites:
   a C++ compiler and make - On Ubuntu, you may install build tools with:
   sudo apt-get install build-essential
 
+For optional SSL support:
+  an openssl library - on Ubuntu, you may install openssl with:
+  sudo apt-get install openssl
+
 To build:
 
-  ./configure
+  ./configure (or ./configure --without-ssl if you don't have SSL support)
   make 
   make install
 
