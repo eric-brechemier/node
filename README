@@ -13,7 +13,7 @@ To build:
 
   ./configure (or ./configure --without-ssl if you don't have SSL support)
   make 
-  make install
+  make install (as root, or sudo make install on Ubuntu)
 
 To run the tests:
   
