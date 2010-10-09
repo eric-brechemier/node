@@ -1,5 +1,10 @@
 Evented I/O for V8 javascript.
 
+Prerequisites:
+  a Unix shell
+  a C++ compiler and make - On Ubuntu, you may install build tools with:
+  sudo apt-get install build-essential
+
 To build:
 
   ./configure
