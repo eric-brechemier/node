@@ -3246,6 +3246,10 @@ variable (which should be a list of paths, colon separated).
 
 ## Addons
 
+------------------------------------ P2PU ----------------------------------
+This description provides an entry point for browsing the source code.
+----------------------------------------------------------------------------
+
 Addons are dynamically linked shared objects. They can provide glue to C and
 C++ libraries. The API (at the moment) is rather complex, involving
 knowledge of several libraries:
