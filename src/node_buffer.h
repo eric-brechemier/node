@@ -18,7 +18,7 @@ namespace node {
  * // returns another buffer - no memory is copied
  * buffer.slice(0, 3)
  *
- * Interally, each javascript buffer object is backed by a "struct buffer"
+ * Internally, each javascript buffer object is backed by a "struct buffer"
  * object.  These "struct buffer" objects are either a root buffer (in the
  * case that buffer->root == NULL) or slice objects (in which case
  * buffer->root != NULL).  A root buffer is only GCed once all its slices
