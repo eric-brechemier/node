@@ -1,11 +1,12 @@
 Evented I/O for V8 javascript.
 
-Prerequisites:
+Prerequisites for build:
+
   a Unix shell
   a C++ compiler and make - On Ubuntu, you may install build tools with:
   sudo apt-get install build-essential
 
-For optional SSL support:
+  For optional SSL support:
   an openssl library - on Ubuntu, you may install libssl with:
   sudo apt-get install libssl-dev
 
@@ -15,9 +16,13 @@ To build:
   make 
   make install (as root, or sudo make install on Ubuntu)
 
+Prerequisites for tests:
+  curl - on Ubuntu, you may install curl with:
+  sudo apt-get install curl
+
 To run the tests:
   
-  make test
+  make test (there are errors reported with latest code...)
 
 To build the documentation:
 
