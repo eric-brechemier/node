@@ -1767,6 +1767,9 @@ static void AtExit() {
   node::Stdio::DisableRawMode(STDIN_FILENO);
 }
 
+// -------------------------------- P2PU ----------------------------
+// Main entry point into node program
+// ------------------------------------------------------------------
 
 int Start(int argc, char *argv[]) {
   // Hack aroung with the argv pointer. Used for process.title = "blah".
