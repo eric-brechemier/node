@@ -6,8 +6,8 @@ Prerequisites:
   sudo apt-get install build-essential
 
 For optional SSL support:
-  an openssl library - on Ubuntu, you may install openssl with:
-  sudo apt-get install openssl
+  an openssl library - on Ubuntu, you may install libssl with:
+  sudo apt-get install libssl-dev
 
 To build:
 
