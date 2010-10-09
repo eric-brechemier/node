@@ -3,7 +3,7 @@ node(1) -- evented I/O for V8 JavaScript
 
 ## Synopsis
 
-> \---------------------------------------------  **P2PU** --------------------------------------------\
+\---------------------------------------------  **P2PU** --------------------------------------------\
 > I had an aha moment while looking for the arguments to the node command to configure the port and IP where the server is running. I had cut and pasted the hello world without a second thought, and had failed to realize what it means:
 > 1. node is not a web server, it is a powerful JavaScript interpreter with web capabilities. There is even a REPL (read-eval-print-loop) à la LISP when you run node without arguments.
 > 2. this is not just a hello world, this is an actual web server; *I* am creating the web server here, *I* am choosing the IP and port to run it.
@@ -3252,9 +3252,9 @@ variable (which should be a list of paths, colon separated).
 
 ## Addons
 
-> \---------------------------------------------  **P2PU** --------------------------------------------\
+\---------------------------------------------  **P2PU** --------------------------------------------\
 > This description provides an entry point for browsing the source code.
-> \-----------------------------------------------------------------------------------------------------\
+\-----------------------------------------------------------------------------------------------------\
 
 Addons are dynamically linked shared objects. They can provide glue to C and
 C++ libraries. The API (at the moment) is rather complex, involving
